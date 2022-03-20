@@ -1,21 +1,22 @@
-#include "main.h
-
+#include "main.h"
 /**
- *print_numbers - entry point
- *
- *Description: prints the numbers with _putchar
- *
- *return: void
+ * _isupper - evaluate if letter is uppercase.
+ *@c; print int
+ *Return: Always 0.
  */
-
- void print_numbers(void)
+ 
+ int _isupper(int c)
  {
-     int number;
-
-     for (number = '0'; number <= '9'; number++)
-     {
-         _putchar(number);
-     }
-     _putchar('\n');
+     
+     if (c >= 'A' && c <= 'Z')
+        return(1);
  }
+ else
+ {
+     return(0);
+ }
+ 
+ 
+ 
+ 
 
